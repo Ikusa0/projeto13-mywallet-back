@@ -6,7 +6,6 @@
   "main": "src/app.js",
   "scripts": {
     "start": "NODE_ENV=production NODE_TSL_REJECT_UNAUTHORIZED=0 node ./src/app.js",
-    "build": "NODE_ENV=production npx tsc --outDir dist",
     "dev": "NODE_ENV=dev nodemon ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
