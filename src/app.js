@@ -14,6 +14,6 @@ app.post("/singup", createUser);
 app.get("/receipt", getReceipt);
 app.post("/receipt", createRegistry);
 
-app.listen(5000, () => {
-  console.log(`listening on port 5000`);
+app.listen(process.env.PORT, () => {
+  console.log(`listening on port ${process.env.PORT}`);
 });
